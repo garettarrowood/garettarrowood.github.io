@@ -1,8 +1,0 @@
----
-layout: main
-title: Test post - no layout
----
-
-This is just a test.
-
-I repeat. Just a test.
