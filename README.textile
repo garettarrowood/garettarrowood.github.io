@@ -1,3 +1,11 @@
-h1. Personal Portfolio project
+h1. This is the data for my blog
 
-This will be a great place to build my resume. One possibility is to include a page with code snippets that link to github pages.  
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
+
+h1. License
+
+The following directories and their contents are Copyright Garett Arrowood. You may not reuse anything therein without my permission:
+
+* _posts/
+
+Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/garettarrowood/ would be appreciated.
