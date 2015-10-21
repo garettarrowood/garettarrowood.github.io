@@ -2,13 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Garett Arrowood</title>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
   </head>
   <body>
 
-  <p>This is temporary main layout content!!</p>
+    <div class="header">
+      <a href="/">Home</a>
+    </div>
 
-  {{content}}
+    {{content}}
+
+    <div class="footer">
+      <div class="contact">
+        <!-- add footer content and style with css -->
+      </div>
+    </div>
 
   </body>
 </html>
