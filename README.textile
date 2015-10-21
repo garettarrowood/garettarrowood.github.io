@@ -1,11 +1,9 @@
 h1. This is the data for my blog
 
-It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site.
 
 h1. License
 
-The following directories and their contents are Copyright Garett Arrowood. You may not reuse anything therein without my permission:
+The following directory and its contents are Copyright Garett Arrowood. You may not reuse anything therein without permission:
 
 * _posts/
-
-Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/garettarrowood/ would be appreciated.
