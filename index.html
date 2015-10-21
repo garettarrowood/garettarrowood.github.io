@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Garett Arrowood</title>
-</head>
-<body>
+---
+layout: main
+---
 
-  <h1>Hello World</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-  <p>This site can be any static page I want, hosted for free. Only html, css and Javascript files allowed. Seems good enough for a resume, right?</p>
-
-</body>
-</html>
