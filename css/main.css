@@ -1,7 +1,5 @@
 
-
-
-
+/*////// SITE //////*/
 
 .site {
   font-size: 110%;
@@ -18,7 +16,7 @@
 }
 
 
-/*//////// NAVBAR //////////*/
+/*////// NAVBAR //////*/
 
 #navbar {
   position: static;
@@ -36,14 +34,15 @@
 
     #navbar nav a {
     display: inline-block;
-    width: 9%;
+    width: 11%;
     margin: 0;
     padding: 22px 0;
+    text-transform: uppercase;
     color: black;
     text-align: center;
     border-right: 1px solid #ccc;
     text-decoration: none;
-    /* font: 1em "Trebuchet MS", Arial, sans-serif; */
+    font: 1em "Trebuchet MS", Arial, sans-serif;
     }
 
 
