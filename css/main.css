@@ -1,6 +1,8 @@
 
 
 
+
+
 .site {
   font-size: 110%;
   text-align: justify;
@@ -14,3 +16,35 @@
   font-weight: bold;
   margin-bottom: 2em;
 }
+
+
+/*//////// NAVBAR //////////*/
+
+#navbar {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+  
+  #navbar nav {
+  border-left: 1px solid #ccc;
+  }
+
+    #navbar nav a {
+    display: inline-block;
+    width: 9%;
+    margin: 0;
+    padding: 22px 0;
+    color: black;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+    /* font: 1em "Trebuchet MS", Arial, sans-serif; */
+    }
+
+
+
