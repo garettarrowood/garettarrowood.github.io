@@ -3,9 +3,9 @@ layout: main
 title: Using Class Attributes to Get Gid of Your Database
 ---
 
-p. I recently created a Vocabulary Formatting Rails app for my wife to use at work. I tried to create the program as quickly as I could, and thus used set up my database using ActiveRecord. Once I was done, my Formatter class looked like this:
+p. I recently created a Vocabulary Formatting Rails app for my wife to use at work. I tried to create the program as quickly as possible, and by habit I set up a database using ActiveRecord. Once I was done, my Formatter class model looked like this:
 
-bc. class Formatter < ActiveRecord::Base
+@class Formatter < ActiveRecord::Base
 
   def arrayed
     content.split(/\r\n/)
@@ -41,9 +41,6 @@ bc. class Formatter < ActiveRecord::Base
     end
   end
 
-end
+end@
 
-
-
-
-p. This should be text
+p. After I got the app running, I realized I only needed one model, and one view, for the program to do everything it needed. There also was no need for a database, as no vocabulary lists needed to be saved for future use. So it became apparent  
