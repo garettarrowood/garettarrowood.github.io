@@ -53,7 +53,7 @@ Instead of saving the attributes in a new instance of the Formatter class, I cou
 
 This decision lead me to discover a new but familiar looking method @cattr_accessor@. Like @attr_accessor@, this method enables readable and writable functionality. However, it operates on class variables instead of instance attributes. Pretty simple.
 
-With this power enabled, I could rewrite my Formatter class to operate only on the class itself. And no more database, and no more inheriting from ActiveRecord::Base. That looks like this:
+With this power enabled, I could rewrite my Formatter class to operate only on the class itself. With no more database, and no more inheriting from ActiveRecord::Base. To get all my previous methods to work, I had to add "self" to each operation. The finish model looks like this:
 
 bc.. class Formatter
 
@@ -95,7 +95,4 @@ bc.. class Formatter
 
 end
 
-
-
-
-
+p. The finished app: "VocabLister":https://vocabformatter.herokuapp.com/
