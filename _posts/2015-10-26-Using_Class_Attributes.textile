@@ -39,7 +39,7 @@ bc.. class Formatter < ActiveRecord::Base
     elsif order == "alpha" && numbered == false
       return alphabetize
     else
-      return ["You did not pick a format. Please select Random or Alhabetize."]
+      return ["You did not pick a format. Please select Random or Alphabetize."]
     end
   end
 
