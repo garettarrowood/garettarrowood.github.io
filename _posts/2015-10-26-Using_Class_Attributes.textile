@@ -49,11 +49,11 @@ p. After I got the app running, I realized I only needed one model & view for th
 
 Enter Class Attributes.
 
-Instead of saving the attributes in a new instance of the Formatter class, I could use class variables that get redefined everytime the POST data was sent threw the form.
+Instead of saving attributes in a new instance of the Formatter class, I could use class variables.
 
-This decision lead me to discover a new but familiar looking method @cattr_accessor@. Like @attr_accessor@, this method enables readable and writable functionality. However, it operates on class variables instead of instance attributes. Pretty simple.
+This decision lead me to discover a new but familiar looking method called @cattr_accessor@. Like @attr_accessor@, this method enables readable and writable functionality. However, it operates on class variables instead of instance variables. Pretty simple.
 
-With this power enabled, I could rewrite my Formatter class to operate only on the class itself. With no more database, and no more inheriting from ActiveRecord::Base. To get all my previous methods to work, I had to add "self" to each operation. The finish model looks like this:
+With this power enabled, I could rewrite my Formatter class to operate only on the class itself. No more database, and no more inheritence from ActiveRecord::Base required. To get all my previous methods to work, I also had to add "self" to each operation. The finished model looks like this:
 
 bc.. class Formatter
 
