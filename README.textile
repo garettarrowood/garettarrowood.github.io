@@ -1,6 +1,6 @@
 h1. These are files for my blog
 
-They are automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site.
+They are automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site. The site is style with the "Sandstone Bootstrap theme":http://bootswatch.com/sandstone/ .
 
 h1. License
 
