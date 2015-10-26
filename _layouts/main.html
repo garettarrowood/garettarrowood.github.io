@@ -9,25 +9,24 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
   </head>
   <body>
+    
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation" class="active"><a href="/">Blog</a></li>
+      <li role="presentation"><a href="http://www.garettarrowood.com" target="_blank">Music</a></li>
+      <li role="presentation"><a href="http://github.com/garettarrowood" target="_blank">Github</a></li>
+      <li role="presentation"><a href="/projects.html">Projects</a></li>
+      <!-- add avatar that positions to far right to balance navbar -->
+    </ul>
 
-    <div id="navbar">
-      <nav>
-        <a href="/">Blog</a>
-        <a href="http://www.garettarrowood.com" target="_blank">Music</a>
-        <a href="http://github.com/garettarrowood" target="_blank">Github</a>
-        <a href="/projects.html">Projects</a>
-        <!-- add avatar that positions to far right to balance navbar -->
-      </nav>
-    </div>
 
-    <div class="site">
-
-      <div class="header">
-      </div>
+    <div class="container">
+      <div class="row">
 
       {{content}}
 
-      <div class="footer">
+      </div>
+
+      <div class="row footer">
         <div class="contact">
           <p>Garett Arrowood - <a href="mailto:garettarrowood@gmail.com">email</a></p>
         </div>
