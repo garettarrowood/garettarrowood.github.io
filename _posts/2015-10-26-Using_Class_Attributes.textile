@@ -3,7 +3,7 @@ layout: main
 title: Using Class Attributes to Get Gid of Your Database
 ---
 
-h1. Using Class Attributes to Get Gid of Your Database
+h1. Using Class Attributes
 
 p. I recently created a Vocabulary Formatting Rails app for my wife to use at work. I tried to create the program as quickly as possible, and by habit I set up a database using ActiveRecord. Once I was done, my Formatter class model looked like this:
 
@@ -45,11 +45,11 @@ bc.. class Formatter < ActiveRecord::Base
 
 end
 
-p. After I got the app running, I realized I only needed one model & view for the program to do everything it needed. There also was no need for a database, as nothing needed to be saved for future use. Thus it became apparent I should get rid of my database. But how could I persist the POST data back to display in the main view?
+p. After I got the app running, I realized I only needed one model & view for the program to do everything it needed. And no input ever needed to be saved for future use. Thus making it apparent that I should get rid of my database. But how could I persist the form data back to display in the main view?
 
 Enter Class Attributes.
 
-Instead of saving the attributes as in a new instance of the Formatter class, I could class variables that get redefined everytime the POST data was sent threw the form.
+Instead of saving the attributes in a new instance of the Formatter class, I could use class variables that get redefined everytime the POST data was sent threw the form.
 
 This decision lead me to discover a new but familiar looking method @cattr_accessor@.
 
