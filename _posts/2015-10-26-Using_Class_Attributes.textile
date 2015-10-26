@@ -95,4 +95,6 @@ bc.. class Formatter
 
 end
 
-p. The finished app: "VocabLister":https://vocabformatter.herokuapp.com/
+p. It should be noted that Class variables are generally avoided in the Ruby community, as they can really mess up redefinging variables and working with inheritence (read about that "here":http://archive.oreilly.com/pub/post/nubygems_dont_use_class_variab_1.html . But for a program this small, they work perfectly.
+
+The finished app: "VocabLister":https://vocabformatter.herokuapp.com/
