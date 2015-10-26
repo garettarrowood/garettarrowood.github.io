@@ -13,11 +13,17 @@
       <div class="col-sm-12">
         <nav>
           <ul class="nav nav-tabs nav-justified" role="tablist">
-            <li role="presentation" class="active"><a href="/" role="tab" data-toggle="tab">Home</a></li>
-            <li role="presentation"><a href="http://www.garettarrowood.com" role="tab" data-toggle="tab" target="_blank">Music</a></li>
-            <li role="presentation"><a href="http://github.com/garettarrowood" role="tab" data-toggle="tab" target="_blank">Github</a></li>
-            <li role="presentation"><a href="/projects.html" role="tab" data-toggle="tab">Projects</a></li>
+            <li role="presentation" class="active"><a href="/" role="tab" data-toggle="tab" aria-controls="home">Home</a></li>
+            <li role="presentation"><a href="http://www.garettarrowood.com" role="tab" data-toggle="tab" aria-controls="music" target="_blank">Music</a></li>
+            <li role="presentation"><a href="http://github.com/garettarrowood" role="tab" data-toggle="tab" aria-controls="github" target="_blank">Github</a></li>
+            <li role="presentation"><a href="/projects.html" role="tab" aria-controls="projects" data-toggle="tab">Projects</a></li>
           </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">...</div>
+            <div role="tabpanel" class="tab-pane" id="music">...</div>
+            <div role="tabpanel" class="tab-pane" id="github">...</div>
+            <div role="tabpanel" class="tab-pane" id="projects">...</div>
+          </div>
         </nav>
       </div>
     </div>
