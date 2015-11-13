@@ -1,0 +1,3 @@
+[submodule "exceptional-realty"]
+  path = include/exceptional-realty
+  url = git@github.com:garettarrowood/exceptional-realty.git
